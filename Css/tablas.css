@@ -1,0 +1,33 @@
+.Tareas{
+    width: 85%;
+    height: 400px;
+    background: white;
+    margin: 200px 0 50px 100px ;
+    color:#000;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th, td{
+
+    padding: 20px;
+}
+
+thead{
+    background-color: rgb(6, 125, 129);
+    border-bottom: solid 5px #0F362D;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color:white;
+}

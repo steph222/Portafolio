@@ -1,0 +1,89 @@
+
+body{
+    background-image: url(../Imagenes/Fondos/fondoPerfil.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+
+
+/**
+Bloque
+**/
+
+section{
+    
+    margin: 200px 20px 250px 20px ;
+    height: 550px;
+    padding: 20px;
+    display: flex;
+}
+
+.Foto{
+    width: 400px;
+    height: 695px;
+    padding: 2px;
+    margin: 48px 10px 10px 10px;
+    border: 3px solid rgb(248, 247, 247);
+    position: 100%;
+    transition: all 900ms;
+    box-shadow: 1px 2px 5px #fff;
+}
+
+.Info{
+  
+    margin: 50px 10px 10px 10px;
+    width: 800px;
+    height: 710px;
+
+}
+
+h4{
+   
+    text-align: center;
+    color: rgb(6, 125, 129);
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    text-shadow: 1px 2px rgb(7, 48, 126);
+}
+
+.Datos{
+    background: #000;
+    margin: 0px 0px 10px 35px;
+    width: 90%;
+    height: 40%;
+    border: 3px solid rgb(248, 247, 247);
+    box-shadow: 1px 2px 5px #fff;
+}
+
+.Pasatiempos{
+    background:#000;;
+    margin: 50px 0px 10px 35px;
+    width: 90%;
+    height: 50%;
+    border: 3px solid rgb(248, 247, 247);
+    box-shadow: 1px 2px 5px #fff;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+b{
+    font-size: 18px;
+    color:rgb(34, 67, 128);
+}
+.social{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.social a{
+
+    text-decoration:none;
+}
+
+

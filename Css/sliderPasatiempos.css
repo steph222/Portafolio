@@ -1,0 +1,33 @@
+.ImgPasatiempos{
+    width: 900px;
+    margin: 250px 0px 40px 150px ;
+    
+    overflow: hidden;
+}
+
+.ImgPasatiempos ul{
+    padding: 20px;
+    display: flex;
+    width: 200%;
+    animation: slide 20s infinite;
+    border: 3px solid rgb(248, 247, 247);
+}
+.ImgPasatiempos li{
+    list-style: none;
+    width: 200%;
+
+}
+
+.ImgPasatiempos img{
+    width: 110%;
+    height: 100%;
+}
+
+
+@keyframes slide{
+    0%{margin-left: -1%;}
+    20%{margin-left: -1%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+}

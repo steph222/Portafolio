@@ -1,0 +1,89 @@
+body{
+	margin:0;
+	font-family: sans-serif;
+}
+
+.hmenu{
+	margin: 10px 50px 50px 120px;
+	width: 80%;
+	background:rgb(6, 125, 129);
+	justify-content: center;
+	top:0;
+}
+
+
+#logoo{
+	background: #000;
+	margin: 60px 0px;
+}
+.logo img{
+
+	margin:auto;
+	display: flex;
+}
+.logo{
+	background: #000;
+	margin: 10px;
+}
+
+
+
+#btn-menu{
+	display: none;
+}
+
+/**
+boton menu
+**/
+.hmenu label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 1px solid #fff;
+	
+}
+
+/* agrego que el cursor cambie a manito cuando esta
+encima del boton y que cambie de color*/
+
+.hmenu label:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,0.5);
+}
+
+/*menú normal*/
+
+.menu ul{
+
+	margin:0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	box-shadow: 1px 2px 5px #fff;
+	
+	
+}
+
+.menu li{
+	border-right: 1px solid #fff;
+
+}
+
+.menu li{
+	justify-content: center;
+	flex-grow: 1;
+}
+
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 20px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+}
+

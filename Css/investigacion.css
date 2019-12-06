@@ -1,0 +1,12 @@
+
+body{
+    background-image: url(../Imagenes/Fondos/fondoInvestigacion.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.Tareas{
+    width: 100px;
+    height: 400px;
+}
