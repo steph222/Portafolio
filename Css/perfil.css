@@ -1,26 +1,22 @@
-
-body{
+body {
     background-image: url(../Imagenes/Fondos/fondoPerfil.jpeg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-attachment: fixed;
 }
 
-
-
 /**
 Bloque
 **/
 
-section{
-    
-    margin: 200px 20px 250px 20px ;
+section {
+    margin: 20px 20px 250px 20px;
     height: 550px;
     padding: 20px;
     display: flex;
 }
 
-.Foto{
+.Foto {
     width: 400px;
     height: 695px;
     padding: 2px;
@@ -31,16 +27,13 @@ section{
     box-shadow: 1px 2px 5px #fff;
 }
 
-.Info{
-  
+.Info {
     margin: 50px 10px 10px 10px;
     width: 800px;
     height: 710px;
-
 }
 
-h4{
-   
+h4 {
     text-align: center;
     color: rgb(6, 125, 129);
     font-family: 'Great Vibes', cursive;
@@ -48,7 +41,7 @@ h4{
     text-shadow: 1px 2px rgb(7, 48, 126);
 }
 
-.Datos{
+.Datos {
     background: #000;
     margin: 0px 0px 10px 35px;
     width: 90%;
@@ -57,8 +50,8 @@ h4{
     box-shadow: 1px 2px 5px #fff;
 }
 
-.Pasatiempos{
-    background:#000;;
+.Pasatiempos {
+    background: #000;
     margin: 50px 0px 10px 35px;
     width: 90%;
     height: 50%;
@@ -66,24 +59,52 @@ h4{
     box-shadow: 1px 2px 5px #fff;
 }
 
-p{
+p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
 }
-b{
+
+b {
     font-size: 18px;
-    color:rgb(34, 67, 128);
+    color: rgb(34, 67, 128);
 }
-.social{
+
+.social {
     width: 100%;
     text-align: center;
     font-size: 28px;
 }
 
-.social a{
-
-    text-decoration:none;
+.social a {
+    text-decoration: none;
 }
 
+.InfoCarrera {
+    margin: 100px 80px 20px 30px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    transition: all 900ms;
+}
 
+.DetalleCarrera {
+    margin: 20px 30px 10px 0px;
+    width: 60%;
+    background-color: #000;
+    box-shadow: 1px 2px 5px #fff;
+}
+
+.ImagenC {
+    width: 30%;
+}
+
+.ImagenC img {
+    width: 4px;
+    height: 5px;
+    padding: 2px;
+    margin: 48px 10px 10px 10px;
+    border: 3px solid rgb(248, 247, 247);
+    position: 100%;
+    transition: all 900ms;
+}
