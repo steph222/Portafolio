@@ -81,7 +81,7 @@ b {
 }
 
 .InfoCarrera {
-    margin: 100px 80px 20px 30px;
+    margin: 10 0px 80px 20px 30px;
     height: 300px;
     padding: 20px;
     display: flex;
@@ -100,11 +100,12 @@ b {
 }
 
 .ImagenC img {
-    width: 4px;
-    height: 5px;
+    width: 360px;
+    height: 260px;
     padding: 2px;
-    margin: 48px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
     border: 3px solid rgb(248, 247, 247);
     position: 100%;
     transition: all 900ms;
+    box-shadow: 1px 2px 5px #fff;
 }
