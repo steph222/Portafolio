@@ -81,7 +81,7 @@ b {
 }
 
 .InfoCarrera {
-    margin: 10 0px 80px 20px 30px;
+    margin: 0px 80px 20px 30px;
     height: 300px;
     padding: 20px;
     display: flex;

@@ -1,0 +1,58 @@
+body {
+    background-image: url(Imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.container {
+    margin: 10px 200px 100px 150px;
+    align-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.575);
+    box-shadow: 1px 2px 5px #fff;
+}
+
+#calendario {
+    text-align: center;
+    display: flex;
+    padding: 20px 0px 0 260px;
+}
+
+.tituloo {
+    text-align: center;
+    align-content: center;
+}
+
+#anterior, #posterior {
+    margin: 10px 20px 0 20px;
+    padding: 15px 0 0 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#anterior:hover, #posterior:hover {
+    color: rgb(17, 148, 172);
+    font-size: 20px;
+    transition: all 400ms;
+    transform: scale(1);
+}
+
+table {
+    color: #fff;
+    width: 350px;
+    height: 300px;
+    box-shadow: 1px 2px 5px #fff;
+}
+
+td {
+    background: rgb(12, 12, 12)!important;
+    box-shadow: 1px 2px 5px #fff;
+    margin: 15px!important;
+    border-radius: 20%;
+}
+
+td:hover {
+    background-color: rgba(90, 201, 209, 0.8)!important;
+}
