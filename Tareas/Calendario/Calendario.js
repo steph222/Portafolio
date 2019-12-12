@@ -86,19 +86,19 @@ function escribirdias() {
             celda = fila.getElementsByTagName("td")[j]
             celda.innerHTML = midia;
             //Recuperar estado inicial al cambiar de mes:
-            celda.style.backgroundColor = "#9bf5ff";
-            celda.style.color = "#492736";
+            celda.style.backgroundColor = "rgb(12, 12, 12)";
+            celda.style.color = "#fff";
             //domingos en rojo
             if (j == 6) {
-                celda.style.color = "#f11445";
+                celda.style.color = "rgb(177, 4, 4)";
             }
             //dias restantes del mes en gris
             if (mimes != mescal) {
-                celda.style.color = "#a0babc";
+                celda.style.color = "#045e64";
             }
             //destacar la fecha actual
             if (mimes == meshoy && midia == diahoy && mianno == annohoy) {
-                celda.style.backgroundColor = "#f0b19e";
+                celda.style.backgroundColor = "#033238";
                 celda.innerHTML = "<cite title='Fecha Actual'>" + midia + "</cite>";
             }
             //pasar al siguiente día

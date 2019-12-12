@@ -89,7 +89,7 @@
             </tr>
 
         </table>
-
+        <br>
         <div id="fechaactual" class="area3">
             <i onclick="actualizar()">
                 HOY:
@@ -101,7 +101,7 @@
             <form action="#" name="buscar">
                 <p>
                     Buscar ... MES
-                    <select name="buscames">
+                    <select id="select" name="buscames">
                         <option value="0">Enero</option>
                         <option value="1">Febrero</option>
                         <option value="2">Marzo</option>
@@ -118,12 +118,12 @@
                     </select>
                     ... AÑO ...
                     <input type="text" name="buscaanno" maxlength="4" size="4" />
-                    <input type="button" value="BUSCAR" onclick="mifecha()" />
+                    <input id="botoon" type="button" value="BUSCAR" onclick="mifecha()" />
                 </p>
             </form>
 
         </div>
-
+        <br>
     </div>
 
 
