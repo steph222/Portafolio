@@ -1,0 +1,60 @@
+body {
+    background-image: url(../Imagenes/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.Cuerpo {
+    height: auto;
+    width: auto;
+    display: flex;
+    height: 800px;
+}
+
+.SliderImg {
+    width: 60%;
+}
+
+.Registro {
+    width: 50%;
+    margin: 100px 10px 100px 10px;
+    background: rgba(0, 0, 0, 0.521);
+    box-shadow: 1px 2px 5px #fff;
+    color: #fff;
+}
+
+.ImgUsuario {
+    margin: 0 15px 0 0;
+}
+
+.DatosUsuario {
+    display: flex;
+    padding: 40px 40px 20px 40px;
+}
+
+.form-control {
+    margin: 10px 0 5px 5px;
+}
+
+.DatosGen {
+    width: 80%;
+    margin: 0 0 0 70px;
+}
+
+.FechaNac {
+    display: flex;
+}
+
+.FechaNac label {
+    margin: 10px 20px 0 -15px;
+}
+
+.LoginRegis {
+    padding: 10px 240px;
+    display: flex;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+}
