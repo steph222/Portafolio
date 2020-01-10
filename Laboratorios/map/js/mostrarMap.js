@@ -37,11 +37,11 @@ rutas = [{
 var listaRutas = [];
 
 
-rutas.forEach(ruta => {
-    var [lati, longi] = ruta.puntos;
+rutas.forEach(direcc => {
+    var [lati, longi] = direcc.puntos;
     listaRutas.push([lati, longi]);
-    var nombre = ruta.lugar;
-    var img = ruta.icono;
+    var nombre = direcc.lugar;
+    var img = direcc.icono;
     var marcaIcono = L.icon({ iconUrl: img });
     var marker = L.marker([lati, longi], { icon: marcaIcono }).bindPopup(nombre).addTo(mymap);
 
@@ -49,13 +49,13 @@ rutas.forEach(ruta => {
 
 var polygon = L.polygon(listaRutas).addTo(mymap);
 
-var rutaLatLng = [];
-listaRutas.forEach(ruta => {
-    rutaLatLng.push(L.latLng(ruta[0], ruta[1]));
+var direcciones = [];
+listaRutas.forEach(direcc => {
+    direcciones.push(L.latLng(direcc[0], direcc[1]));
 })
 
 L.Routing.control({
-    waypoints: rutaLatLng
+    waypoints: direcciones
 }).addTo(mymap);
 
 
